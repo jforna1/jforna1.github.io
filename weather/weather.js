@@ -15,8 +15,10 @@ style: function(feature){
   var alertColor = 'orange';
   if (feature.properties.severity === 'Severe') alertColor = 'red';
   return { color: alertColor };
+  var alertColor = 'orange';  
   if (feature.properties.extreme === 'Extreme') alertColor = 'hotpink';
   return { color: alertColor };
+  var alertColor = 'orange';  
   if (feature.properties.minor === 'Minor') alertColor = 'violet';
   return { color: alertColor };
 },
