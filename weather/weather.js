@@ -17,6 +17,8 @@ style: function(feature){
   return { color: alertColor };
   if (feature.properties.extreme === 'Extreme') alertColor = 'hotpink';
   return { color: alertColor };
+  if (feature.properties.minor === 'Minor') alertColor = 'violet';
+  return { color: alertColor };
 },
 onEachFeature: function(feature, layer) {
   layer.bindPopup(feature.properties.headline);
