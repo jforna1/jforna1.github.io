@@ -15,7 +15,7 @@ style: function(feature){
   var alertColor = 'orange';
   if (feature.properties.severity === 'Severe') alertColor = 'red';
   return { color: alertColor };
-   if (feature.properties.severity === 'Extreme') alertColor = 'hotpink';
+  if (feature.properties.extreme === 'Extreme') alertColor = 'hotpink';
   return { color: alertColor };
 },
 onEachFeature: function(feature, layer) {
