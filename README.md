@@ -1,4 +1,4 @@
-# GEOG 4046 Map Example
+# GEOG 4046 Map Examples
 Maps for assignments in GEOG 4046.
 
 ## Current Weather
